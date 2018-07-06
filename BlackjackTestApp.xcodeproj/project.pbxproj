@@ -7,21 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D52310220EEE95700D76567 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D52310120EEE95700D76567 /* HistoryModel.swift */; };
+		6DC1A11720EED7D0003126B1 /* HistoryObjectStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC1A11620EED7D0003126B1 /* HistoryObjectStruct.swift */; };
 		6DC5321F20EAEB82006C79DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5321E20EAEB82006C79DB /* AppDelegate.swift */; };
-		6DC5322120EAEB82006C79DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5322020EAEB82006C79DB /* ViewController.swift */; };
+		6DC5322120EAEB82006C79DB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5322020EAEB82006C79DB /* GameViewController.swift */; };
 		6DC5322420EAEB82006C79DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC5322220EAEB82006C79DB /* Main.storyboard */; };
 		6DC5322620EAEB83006C79DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC5322520EAEB83006C79DB /* Assets.xcassets */; };
 		6DC5322920EAEB83006C79DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC5322720EAEB83006C79DB /* LaunchScreen.storyboard */; };
+		6DC5323320EB7BB0006C79DB /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DC5323220EB7BB0006C79DB /* CardView.xib */; };
+		6DC5323520EB87DC006C79DB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5323420EB87DC006C79DB /* CardView.swift */; };
+		6DC5323720EB8AA7006C79DB /* CardStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5323620EB8AA7006C79DB /* CardStruct.swift */; };
+		6DC5324020ECD0BC006C79DB /* PlaceForCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DC5323F20ECD0BC006C79DB /* PlaceForCardView.xib */; };
+		6DC5324220ECD119006C79DB /* PlaceForCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5324120ECD119006C79DB /* PlaceForCardView.swift */; };
+		6DC5324620ECEBD5006C79DB /* PlayerHandView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DC5324520ECEBD5006C79DB /* PlayerHandView.xib */; };
+		6DC5324820ECEF75006C79DB /* PlayerHandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5324720ECEF75006C79DB /* PlayerHandView.swift */; };
+		6DC5324A20ECFD84006C79DB /* PlayingFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5324920ECFD84006C79DB /* PlayingFieldView.swift */; };
+		6DC5324D20ED1ABD006C79DB /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5324C20ED1ABD006C79DB /* GameModel.swift */; };
+		6DC5325020ED6223006C79DB /* ExtensionArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5324F20ED6223006C79DB /* ExtensionArray.swift */; };
+		6DC5325520ED6A9A006C79DB /* ChangePlayerHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5325420ED6A9A006C79DB /* ChangePlayerHelpViewController.swift */; };
+		6DC5325720ED6AF2006C79DB /* ExtensionUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5325620ED6AF2006C79DB /* ExtensionUIButton.swift */; };
+		6DC5325920ED7AB8006C79DB /* PlayerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5325820ED7AB8006C79DB /* PlayerClass.swift */; };
+		6DC5325B20ED7B3A006C79DB /* CroupierClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5325A20ED7B39006C79DB /* CroupierClass.swift */; };
+		6DC5325D20ED8562006C79DB /* CardsAnalyzerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5325C20ED8561006C79DB /* CardsAnalyzerClass.swift */; };
+		6DC5325F20ED92E8006C79DB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5325E20ED92E8006C79DB /* LoginViewController.swift */; };
+		6DC5326220EDE989006C79DB /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5326120EDE989006C79DB /* HistoryTableViewCell.swift */; };
+		6DC5326420EDF009006C79DB /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5326320EDF009006C79DB /* HistoryViewController.swift */; };
+		6DC5326620EDF0CE006C79DB /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5326520EDF0CE006C79DB /* HistoryView.swift */; };
+		6DC5326820EE5848006C79DB /* ProjectDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5326720EE5848006C79DB /* ProjectDataBase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D52310120EEE95700D76567 /* HistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		6DC1A11620EED7D0003126B1 /* HistoryObjectStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryObjectStruct.swift; sourceTree = "<group>"; };
 		6DC5321B20EAEB82006C79DB /* BlackjackTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackjackTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC5321E20EAEB82006C79DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6DC5322020EAEB82006C79DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DC5322020EAEB82006C79DB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		6DC5322320EAEB82006C79DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DC5322520EAEB83006C79DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DC5322820EAEB83006C79DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DC5322A20EAEB83006C79DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC5323220EB7BB0006C79DB /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		6DC5323420EB87DC006C79DB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6DC5323620EB8AA7006C79DB /* CardStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStruct.swift; sourceTree = "<group>"; };
+		6DC5323F20ECD0BC006C79DB /* PlaceForCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceForCardView.xib; sourceTree = "<group>"; };
+		6DC5324120ECD119006C79DB /* PlaceForCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceForCardView.swift; sourceTree = "<group>"; };
+		6DC5324520ECEBD5006C79DB /* PlayerHandView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerHandView.xib; sourceTree = "<group>"; };
+		6DC5324720ECEF75006C79DB /* PlayerHandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerHandView.swift; sourceTree = "<group>"; };
+		6DC5324920ECFD84006C79DB /* PlayingFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingFieldView.swift; sourceTree = "<group>"; };
+		6DC5324C20ED1ABD006C79DB /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		6DC5324F20ED6223006C79DB /* ExtensionArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionArray.swift; sourceTree = "<group>"; };
+		6DC5325420ED6A9A006C79DB /* ChangePlayerHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePlayerHelpViewController.swift; sourceTree = "<group>"; };
+		6DC5325620ED6AF2006C79DB /* ExtensionUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIButton.swift; sourceTree = "<group>"; };
+		6DC5325820ED7AB8006C79DB /* PlayerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerClass.swift; sourceTree = "<group>"; };
+		6DC5325A20ED7B39006C79DB /* CroupierClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CroupierClass.swift; sourceTree = "<group>"; };
+		6DC5325C20ED8561006C79DB /* CardsAnalyzerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsAnalyzerClass.swift; sourceTree = "<group>"; };
+		6DC5325E20ED92E8006C79DB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6DC5326120EDE989006C79DB /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		6DC5326320EDF009006C79DB /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		6DC5326520EDF0CE006C79DB /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		6DC5326720EE5848006C79DB /* ProjectDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDataBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +79,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6DC1A10F20EED600003126B1 /* StartScreen */ = {
+			isa = PBXGroup;
+			children = (
+				6DC5325E20ED92E8006C79DB /* LoginViewController.swift */,
+			);
+			path = StartScreen;
+			sourceTree = "<group>";
+		};
+		6DC1A11020EED625003126B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DC1A11420EED674003126B1 /* DetailedClasses  */,
+				6DC5324C20ED1ABD006C79DB /* GameModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DC1A11120EED62C003126B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6DC5325120ED6262006C79DB /* DetailedViews */,
+				6DC5324920ECFD84006C79DB /* PlayingFieldView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6DC1A11220EED637003126B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6DC5322020EAEB82006C79DB /* GameViewController.swift */,
+				6DC1A11320EED656003126B1 /* HelpVC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6DC1A11320EED656003126B1 /* HelpVC */ = {
+			isa = PBXGroup;
+			children = (
+				6DC5325420ED6A9A006C79DB /* ChangePlayerHelpViewController.swift */,
+			);
+			path = HelpVC;
+			sourceTree = "<group>";
+		};
+		6DC1A11420EED674003126B1 /* DetailedClasses  */ = {
+			isa = PBXGroup;
+			children = (
+				6DC5323620EB8AA7006C79DB /* CardStruct.swift */,
+				6DC5325A20ED7B39006C79DB /* CroupierClass.swift */,
+				6DC5325820ED7AB8006C79DB /* PlayerClass.swift */,
+				6DC1A11620EED7D0003126B1 /* HistoryObjectStruct.swift */,
+				6DC5325C20ED8561006C79DB /* CardsAnalyzerClass.swift */,
+			);
+			path = "DetailedClasses ";
+			sourceTree = "<group>";
+		};
+		6DC1A11520EED729003126B1 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				6DC5326720EE5848006C79DB /* ProjectDataBase.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
 		6DC5321220EAEB82006C79DB = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +161,93 @@
 		6DC5321D20EAEB82006C79DB /* BlackjackTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				6DC5321E20EAEB82006C79DB /* AppDelegate.swift */,
-				6DC5322020EAEB82006C79DB /* ViewController.swift */,
-				6DC5322220EAEB82006C79DB /* Main.storyboard */,
-				6DC5322520EAEB83006C79DB /* Assets.xcassets */,
-				6DC5322720EAEB83006C79DB /* LaunchScreen.storyboard */,
 				6DC5322A20EAEB83006C79DB /* Info.plist */,
+				6DC5321E20EAEB82006C79DB /* AppDelegate.swift */,
+				6DC5322220EAEB82006C79DB /* Main.storyboard */,
+				6DC1A11520EED729003126B1 /* Database */,
+				6DC1A10F20EED600003126B1 /* StartScreen */,
+				6DC5326020EDE961006C79DB /* HistoryScreen */,
+				6DC5324B20ED1A7B006C79DB /* GameScreen */,
+				6DC5324E20ED5D08006C79DB /* Other */,
 			);
 			path = BlackjackTestApp;
+			sourceTree = "<group>";
+		};
+		6DC5323820EBA3B5006C79DB /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				6DC5323220EB7BB0006C79DB /* CardView.xib */,
+				6DC5323420EB87DC006C79DB /* CardView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		6DC5324320ECE2B4006C79DB /* PlaceForCardView */ = {
+			isa = PBXGroup;
+			children = (
+				6DC5323F20ECD0BC006C79DB /* PlaceForCardView.xib */,
+				6DC5324120ECD119006C79DB /* PlaceForCardView.swift */,
+			);
+			path = PlaceForCardView;
+			sourceTree = "<group>";
+		};
+		6DC5324420ECEBBB006C79DB /* PlayerHandView */ = {
+			isa = PBXGroup;
+			children = (
+				6DC5324520ECEBD5006C79DB /* PlayerHandView.xib */,
+				6DC5324720ECEF75006C79DB /* PlayerHandView.swift */,
+			);
+			path = PlayerHandView;
+			sourceTree = "<group>";
+		};
+		6DC5324B20ED1A7B006C79DB /* GameScreen */ = {
+			isa = PBXGroup;
+			children = (
+				6DC1A11020EED625003126B1 /* Model */,
+				6DC1A11120EED62C003126B1 /* View */,
+				6DC1A11220EED637003126B1 /* Controller */,
+			);
+			path = GameScreen;
+			sourceTree = "<group>";
+		};
+		6DC5324E20ED5D08006C79DB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6DC5325320ED628A006C79DB /* Extension */,
+				6DC5322720EAEB83006C79DB /* LaunchScreen.storyboard */,
+				6DC5322520EAEB83006C79DB /* Assets.xcassets */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		6DC5325120ED6262006C79DB /* DetailedViews */ = {
+			isa = PBXGroup;
+			children = (
+				6DC5324420ECEBBB006C79DB /* PlayerHandView */,
+				6DC5324320ECE2B4006C79DB /* PlaceForCardView */,
+				6DC5323820EBA3B5006C79DB /* CardView */,
+			);
+			path = DetailedViews;
+			sourceTree = "<group>";
+		};
+		6DC5325320ED628A006C79DB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6DC5324F20ED6223006C79DB /* ExtensionArray.swift */,
+				6DC5325620ED6AF2006C79DB /* ExtensionUIButton.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6DC5326020EDE961006C79DB /* HistoryScreen */ = {
+			isa = PBXGroup;
+			children = (
+				6DC5326120EDE989006C79DB /* HistoryTableViewCell.swift */,
+				6D52310120EEE95700D76567 /* HistoryModel.swift */,
+				6DC5326520EDF0CE006C79DB /* HistoryView.swift */,
+				6DC5326320EDF009006C79DB /* HistoryViewController.swift */,
+			);
+			path = HistoryScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +310,10 @@
 			files = (
 				6DC5322920EAEB83006C79DB /* LaunchScreen.storyboard in Resources */,
 				6DC5322620EAEB83006C79DB /* Assets.xcassets in Resources */,
+				6DC5324020ECD0BC006C79DB /* PlaceForCardView.xib in Resources */,
+				6DC5323320EB7BB0006C79DB /* CardView.xib in Resources */,
 				6DC5322420EAEB82006C79DB /* Main.storyboard in Resources */,
+				6DC5324620ECEBD5006C79DB /* PlayerHandView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +324,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DC5322120EAEB82006C79DB /* ViewController.swift in Sources */,
+				6DC5325D20ED8562006C79DB /* CardsAnalyzerClass.swift in Sources */,
+				6DC5324820ECEF75006C79DB /* PlayerHandView.swift in Sources */,
+				6DC5324D20ED1ABD006C79DB /* GameModel.swift in Sources */,
+				6DC5326820EE5848006C79DB /* ProjectDataBase.swift in Sources */,
+				6DC5325F20ED92E8006C79DB /* LoginViewController.swift in Sources */,
+				6D52310220EEE95700D76567 /* HistoryModel.swift in Sources */,
+				6DC5322120EAEB82006C79DB /* GameViewController.swift in Sources */,
+				6DC1A11720EED7D0003126B1 /* HistoryObjectStruct.swift in Sources */,
+				6DC5325920ED7AB8006C79DB /* PlayerClass.swift in Sources */,
+				6DC5325B20ED7B3A006C79DB /* CroupierClass.swift in Sources */,
+				6DC5326620EDF0CE006C79DB /* HistoryView.swift in Sources */,
+				6DC5325720ED6AF2006C79DB /* ExtensionUIButton.swift in Sources */,
+				6DC5323520EB87DC006C79DB /* CardView.swift in Sources */,
+				6DC5324A20ECFD84006C79DB /* PlayingFieldView.swift in Sources */,
+				6DC5326220EDE989006C79DB /* HistoryTableViewCell.swift in Sources */,
+				6DC5325020ED6223006C79DB /* ExtensionArray.swift in Sources */,
+				6DC5325520ED6A9A006C79DB /* ChangePlayerHelpViewController.swift in Sources */,
+				6DC5323720EB8AA7006C79DB /* CardStruct.swift in Sources */,
+				6DC5324220ECD119006C79DB /* PlaceForCardView.swift in Sources */,
+				6DC5326420EDF009006C79DB /* HistoryViewController.swift in Sources */,
 				6DC5321F20EAEB82006C79DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +497,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = homeProject.BlackjackTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,7 +514,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = homeProject.BlackjackTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
